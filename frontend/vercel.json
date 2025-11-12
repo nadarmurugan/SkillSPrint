@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ],
+  "redirects": [
+    { "source": "/Login", "destination": "/login", "permanent": true },
+    { "source": "/Signup", "destination": "/signup", "permanent": true }
+  ]
+}
